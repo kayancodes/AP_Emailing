@@ -87,7 +87,7 @@ h3 {
   font-family: var(--title-font);
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
-  margin-bottom: 0rem;
+  margin-bottom: 0.5rem;
 }
 
 p, li {
