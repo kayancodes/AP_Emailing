@@ -16,7 +16,7 @@
   --h1-font-size:1.9rem;
   --h1-font-size-Mobile:1.9rem;
   --h2-font-size:1.6rem;
-  --h3-font-size:0.8125rem;
+  --h3-font-size:0.9125rem;
   --normal-plus: 1rem;
   --normal-font-size: 0.8125rem;
   --small-font-size:0.5625rem;
@@ -40,7 +40,7 @@
 @media (min-width: 768px) {
   :root {
     --h2-font-size:1.3rem;
-    --h3-font-size:0.9375rem;
+    --h3-font-size:0.8375rem;
     --normal-font-size:0.8125rem;
     --small-font-size:0.625rem;
     --smaller-font-size:0.4375rem ;
@@ -88,6 +88,10 @@ h3 {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: 0.5rem;
+}
+
+h3.h3_board {
+  font-size: 20px;
 }
 
 p, li {
@@ -181,6 +185,10 @@ main {
   width: 100%;
   margin-bottom: var(--mb-60);
   text-align: left;
+}
+
+.main__body .introduction_texte p {
+  margin-bottom: 1.2rem !important;
 }
 
 .main__body .introduction_button {
